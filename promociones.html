@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estiloTarjetasGraficas.css">
+    <link rel="stylesheet" href="promociones.js">
+    <link rel="stylesheet" href="promociones.css">
+    <title>AuraTech | Promociones</title>
+</head>
+<body>
+     <header>
+        <img class="logo" src="imagenes/logo1-removebg-preview.png" alt="">
+        <div class="menu-icon" id="menu-icon">
+            ☰
+          </div>
+        <nav class="navegacion">
+            <ul class="menuNavegacion">
+              <li><a class="botonNavegacion" href="index.html">Inicio</a></li>
+              <li><a class="botonNavegacion" href="tarjetasGraficas.html">Productos</a></li>
+              <li><a class="botonNavegacion" href="contacto.html">Contacto</a></li>
+              <li><a class="botonNavegacion" href="promociones.html">Promociones</a></li>
+              <li><a class="botonNavegacion" href="Nosotros.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <main>
+  <h1>Promociones</h1>
+  <div class="gridProductos">
+
+    <!-- Promo 1: Dual Channel RAM -->
+    <div class="contenedorDeImagenYDescripcion">
+      <img src="imagenes/andrey-matveev-mSShcSJcsrY-unsplash.jpg" alt="RAM Dual Channel">
+      <div class="tituloYDescripcion">
+        <h3 class="tituloProducto">Tenés Dual Channel</h3>
+        <p class="descripcion">
+          Aprovechá y llevá dos memorias RAM, la segunda al 50%.
+        </p>
+        <form class="formularioPromo" data-tipo="promo1">
+          <label>Cantidad:
+            <input type="number" class="cantidad" value="1" min="1">
+          </label>
+          <button type="button" class="calcular">Calcular</button>
+        </form>
+        <div class="resultado">
+          <p>Total sin descuento: $<span class="totalSinDescuento">0</span></p>
+          <p>Descuento aplicado: $<span class="descuento">0</span></p>
+          <p>Total final: $<span class="totalFinal">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Promo 2: 3x2 en productos seleccionados -->
+    <div class="contenedorDeImagenYDescripcion">
+      <img src="imagenes/andrey-matveev-ipVMl4H6g6o-unsplash.jpg" alt="Tarjeta Grafica">
+      <div class="tituloYDescripcion">
+        <h3 class="tituloProducto">3x2 Productos seleccionados</h3>
+        <p class="descripcion">
+          Comprá tres productos y pagá solo dos. Aplica a la tarjeta gráfica, motherboard y watercooler.
+        </p>
+        <form class="formularioPromo" data-tipo="promo2">
+          <label>Producto:
+            <select class="producto">
+              <option value="100000">Tarjeta gráfica $100.000</option>
+              <option value="80000">Motherboard $80.000</option>
+              <option value="40000">Watercooler $40.000</option>
+            </select>
+          </label>
+          <label>Cantidad:
+            <input type="number" class="cantidad" value="1" min="1">
+          </label>
+          <button type="button" class="calcular">Calcular</button>
+        </form>
+        <div class="resultado">
+          <p>Total sin descuento: $<span class="totalSinDescuento">0</span></p>
+          <p>Descuento aplicado: $<span class="descuento">0</span></p>
+          <p>Total final: $<span class="totalFinal">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contenedorDeImagenYDescripcion">
+  <img src="imagenes/andrey-matveev-HMn0qjKl_Sw-unsplash.jpg" alt="10% descuento">
+  <div class="tituloYDescripcion">
+    <h3 class="tituloProducto">10% de descuento</h3>
+    <p class="descripcion">
+      Compras superiores a $30.000 obtienen 10% de descuento automáticamente.
+    </p>
+    <form class="formularioPromo" data-tipo="promo3">
+      <label>Producto:
+        <select class="producto">
+          <option value="100000">Tarjeta gráfica $100.000</option>
+          <option value="80000">Motherboard $80.000</option>
+          <option value="40000">Watercooler $40.000</option>
+          <option value="20000">RAM $20.000</option>
+        </select>
+      </label>
+      <label>Cantidad:
+        <input type="number" class="cantidad" value="1" min="1">
+      </label>
+      <button type="button" class="calcular">Calcular</button>
+    </form>
+    <div class="resultado">
+      <p>Total sin descuento: $<span class="totalSinDescuento">0</span></p>
+      <p>Descuento aplicado: $<span class="descuento">0</span></p>
+      <p>Total final: $<span class="totalFinal">0</span></p>
+    </div>
+  </div>
+</div>
+
+</div>
+<script src="promociones.js"></script>
+</body>
+</html>
