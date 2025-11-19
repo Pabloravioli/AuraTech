@@ -176,13 +176,6 @@ line-height: normal;
 
 p{
   color: #FFF;
-text-align: right;
-font-family: Roboto;
-font-size: 23px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 610px;
 }
 
 @media (max-width: 768px) {
