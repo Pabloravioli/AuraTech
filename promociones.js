@@ -6,7 +6,7 @@ document.querySelectorAll('.calcular').forEach(boton => {
     let precio = 0;
     
     if(tipo === 'promo1'){
-      precio = 20000; // RAM
+      precio = 20000; 
       let total = precio * cantidad;
       let descuento = 0;
       if(cantidad >=2) descuento = precio * Math.floor(cantidad/2) * 0.5;
@@ -35,7 +35,7 @@ document.querySelectorAll('.calcular').forEach(boton => {
       precio = Number(form.querySelector('.producto').value);
       let total = precio * cantidad;
       let descuento = 0;
-      if(total > 30000) descuento = total * 0.10; // 10% de descuento si total > 30.000
+      if(total > 30000) descuento = total * 0.10;
       let totalFinal = total - descuento;
 
       const resultado = form.nextElementSibling;

@@ -173,7 +173,17 @@ line-height: normal;
     margin: 0 auto;
     padding: 40px 20px;
   }
-  
+
+p{
+  color: #FFF;
+text-align: right;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 610px;
+}
 
 @media (max-width: 768px) {
   .gridProductos {
